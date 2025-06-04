@@ -9,10 +9,11 @@ public class QuitGame : MonoBehaviour
     {
         // Si estamos en el editor de Unity, paramos la simulación del juego
 #if UNITY_EDITOR
+        // Asegúrate de que esta línea solo se compile en el editor
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-            // Si estamos en una build (Windows, Mac, Linux), cerramos la aplicación
-            Application.Quit();
+        // Si estamos en una build (Windows, Mac, Linux), cerramos la aplicación
+        Application.Quit();
 #endif
     }
 }

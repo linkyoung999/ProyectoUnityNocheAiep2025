@@ -2,7 +2,7 @@
 using System.Collections;
 //ESTE FADE NO SE DESACTIVA CUANDO SE TERMINA EL EFECTO
 
-public class ReverseFadeScript2 : MonoBehaviour 
+public class FadeOut : MonoBehaviour 
 {
 	public float fadeTime = 5;
 	public Color fadeColor = Color.black;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class FadeScript : MonoBehaviour
+public class FadeIn : MonoBehaviour
 {
 	public float fadeTime = 5;
 	public Color fadeColor = Color.black;
