@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 160065534}
   - component: {fileID: 160065536}
   - component: {fileID: 160065537}
-  - component: {fileID: 160065538}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -195,19 +194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a8cd7689585493f9eb512d8679c3ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &160065538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 160065533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ed45efa8b7b44b919e95bbb8d886f73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Credits.unity
 --- !u!1 &201202667
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1056,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 160065538}
+      - m_Target: {fileID: 1635437624}
         m_TargetAssemblyTypeName: ButtonSceneChanger, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
@@ -1080,7 +1066,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1197379826
 MonoBehaviour:
@@ -1507,6 +1493,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609169047}
   m_CullTransparentMesh: 1
+--- !u!1 &1635437623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635437625}
+  - component: {fileID: 1635437624}
+  m_Layer: 0
+  m_Name: ScriptParaCargarCredits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1635437624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635437623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed45efa8b7b44b919e95bbb8d886f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Credits.unity
+--- !u!4 &1635437625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635437623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.16745399, y: -0.106515884, z: -9.589908}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1653401165
 GameObject:
   m_ObjectHideFlags: 0
